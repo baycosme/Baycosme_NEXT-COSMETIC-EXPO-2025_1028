@@ -1,219 +1,174 @@
-<!DOCTYPE html>
 <html lang="ja">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NEXT COSMETIC EXPO 2025｜10.28 銀座開催</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --blue-main:#0066B8;
-      --blue-accent:#33C3E6;
-      --yellow:#FFCC00;
-      --black:#333;
-    }
-    body{font-family:'Noto Sans JP',sans-serif;color:var(--black);scroll-behavior:smooth}
-    h1,h2,h3,h4{font-family:'Montserrat',sans-serif;letter-spacing:.02em;color:var(--blue-main)}
-    section{scroll-margin-top:90px}
-    #floating-cta{position:fixed;bottom:20px;right:20px;z-index:50;}
-    .agenda-card{background:#ffffff;border-left:4px solid var(--yellow);color:var(--black)}
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXT COSMETIC EXPO 2025｜10.28 銀座開催</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --blue-main:#0066B8;    /* 基調ブルー */
+      --blue-accent:#33C3E6;  /* ホバー／リンク */
+      --yellow:#FFCC00;
+      --black:#333;
+    }
+    body{font-family:'Noto Sans JP',sans-serif;color:var(--black);scroll-behavior:smooth}
+    h1,h2,h3,h4{font-family:'Montserrat',sans-serif;letter-spacing:.02em;color:var(--blue-main)}
+    section{scroll-margin-top:90px}
+    #floating-cta{position:fixed;bottom:20px;right:20px;z-index:50;}
+    .agenda-card{background:#ffffff;border-left:4px solid var(--yellow);color:var(--black)}
+  </style>
 </head>
+
 <body class="bg-[#FAFAFA]">
+
+<!-- ===== GLOBAL NAV ===== -->
 <header class="w-full fixed top-0 left-0 bg-white/90 backdrop-blur shadow z-50">
-  <div class="max-w-screen-lg mx-auto flex justify-between items-center px-6 py-4 text-base md:text-xl font-bold">
-    <a href="#kv" class="text-[var(--black)] hover:text-[var(--blue-accent)] whitespace-nowrap">NEXT&nbsp;COSMETIC&nbsp;EXPO&nbsp;2025</a>
-    <nav class="space-x-8 hidden md:block">
-      <a href="#about"  class="hover:text-[var(--blue-accent)]">ABOUT</a>
-      <a href="#summary" class="hover:text-[var(--blue-accent)]">SUMMARY</a>
-      <a href="#seminar"  class="hover:text-[var(--blue-accent)]">SEMINAR</a>
-      <a href="#timetable" class="hover:text-[var(--blue-accent)]">TIMETABLE</a>
-    </nav>
-  </div>
+  <div class="max-w-screen-lg mx-auto flex justify-between items-center px-6 py-4 text-base md:text-xl font-bold">
+    <a href="#kv" class="text-[var(--black)] hover:text-[var(--blue-accent)] whitespace-nowrap">NEXT&nbsp;COSMETIC&nbsp;EXPO&nbsp;2025</a>
+    <nav class="space-x-8 hidden md:block">
+      <a href="#summary" class="hover:text-[var(--blue-accent)]">ABOUT</a>
+      <a href="#schedule" class="hover:text-[var(--blue-accent)]">TIMETABLE</a>
+      <a href="#seminar"  class="hover:text-[var(--blue-accent)]">SEMINAR</a>
+      <a href="#faq"      class="hover:text-[var(--blue-accent)]">FAQ</a>
+    </nav>
+  </div>
 </header>
-  
+
+<!-- 1) KV -->
 <section id="kv" class="relative pt-20">
-  <div class="max-w-screen-lg w-full mx-auto px-4">
-    <img src="KV_満員御礼.png" alt="KV Banner" class="w-full h-auto object-contain" />
-  </div>
+  <div class="max-w-screen-lg w-full mx-auto px-4">
+    <img src="KV_main.png" alt="KV Banner" class="w-full h-auto object-contain" />
+  </div>
 </section>
-  
-<div class="max-w-screen-lg w-full mx-auto px-4">
-  <img src="obi.png" alt="帯画像" class="w-full object-cover" />
-</div>
-  
+
+<!-- 2) ABOUT -->
 <section id="about" class="bg-white py-24 px-6">
-  <div class="max-w-screen-lg mx-auto text-center">
-    <h2 class="text-5xl font-extrabold italic text-[var(--blue-main)] mb-4">NEXT COSMETIC EXPO 2025</h2>
-    <p class="flex items-center justify-center text-sm text-gray-600 mb-10"><span class="w-12 h-px bg-gray-400 mr-3"></span>異業種からの挑戦を成功に導く！ 化粧品業界 新規参入セミナー<span class="w-12 h-px bg-gray-400 ml-3"></span></p>
-    <p class="text-lg leading-relaxed font-bold mb-6 max-w-4xl mx-auto">なぜ、今化粧品事業に参入すべきなのか。市場を勝ち抜くためのブランド戦略とマーケティングの全て</p>
-    <p class="text-base leading-relaxed max-w-4xl mx-auto">新たな事業の柱を模索されている企業様へ。 なぜ今、多くの企業が化粧品事業への新規参入に注目しているのか、その理由をご存知ですか？<br>本イベントは、市場の最新動向を牽引するアイスタイル様、新たに新規参入したネオマーケティング様、親会社であるMD代表石井賢介氏をお招きし、主催のベイコスメティックスと共に、「なぜ、化粧品事業へ新規参入をしたのか」「圧倒的なヒット商品を生み出すためのブランド戦略・マーケティング手法とは何か」について、各社の成功事例を交えながら、その戦略のすべてをこの場限りでお話しいただく、完全オフラインの特別カンファレンスです。<br>貴社の新たな事業の柱となり得る、化粧品ビジネス成功への道筋を具体的に描くまたとない機会です。ぜひ、ご参加ください。</span> </p>
-  </div>
+  <div class="max-w-screen-lg mx-auto text-center">
+    <h2 class="text-5xl font-extrabold italic mb-4" style="color:#0066B8;">異業種からの挑戦を成功に導く！</h2>
+    <p class="text-lg leading-relaxed font-bold mb-6 max-w-4xl mx-auto">
+      化粧品業界 新規参入セミナー<br>
+      〜なぜ、今化粧品事業に参入すべきなのか。市場を勝ち抜くためのブランド戦略とマーケティングの全て〜
+    </p>
+    <p class="text-base leading-relaxed max-w-4xl mx-auto">
+      新たな事業の柱を模索されている企業様へ。<br>
+      なぜ今、多くの企業が化粧品事業への新規参入に注目しているのか、その理由をご存知ですか？
+    </p>
+    <p class="text-base leading-relaxed max-w-4xl mx-auto mt-6">
+      本イベントは、市場の最新動向を牽引するアイスタイル様、新たに新規参入したネオマーケティング様、親会社であるMD代表石井賢介氏をお招きし、主催のベイコスメティックスと共に、各社の成功事例を交えながら「なぜ、化粧品事業へ新規参入をしたのか」「圧倒的なヒット商品を生み出すためのブランド戦略・マーケティング手法とは何か」を語り尽くす完全オフラインの特別カンファレンスです。<br><br>
+      貴社の新たな事業の柱となり得る、化粧品ビジネス成功への道筋を具体的に描くまたとない機会です。ぜひご参加ください。
+    </p>
+  </div>
 </section>
-  
+
+<!-- 3) CTA -->
 <section class="bg-[var(--blue-main)] py-10 text-center text-white">
-  <a href="https://forms.gle/nbGFV11vnPAZWBvK6" target="_blank" class="inline-block bg-[var(--yellow)] text-black px-12 py-4 rounded-full font-semibold hover:bg-[var(--blue-accent)] transition">来場申し込みはこちら</a>
+  <a href="https://forms.gle/nbGFV11vnPAZWBvK6" target="_blank" class="inline-block bg-[var(--yellow)] text-black px-12 py-4 rounded-full font-semibold hover:bg-[var(--blue-accent)] transition">来場申し込みはこちら</a>
 </section>
-  
+
+<!-- 4) EVENT SUMMARY -->
 <section id="summary" class="bg-[var(--blue-main)] text-white py-20 px-6">
-  <div class="max-w-screen-lg mx-auto text-center">
-    <h2 class="text-5xl font-extrabold italic text-white mb-3">
-      EVENT SUMMARY
-    </h2>
-    <p class="text-lg mb-12">ーイベント開催概要ー</p>
-        <dl class="mx-auto max-w-[600px] text-left text-lg leading-relaxed">
-            <div class="flex flex-col sm:flex-row sm:items-start gap-2 border-b border-white/40 pb-6 mb-6">
-        <dt class="font-bold shrink-0 w-36">開催日程</dt>
-        <dd>2025年10月28日（火） 17:00~20:00<br>（交流会19:30~20:00）<br>受付開始 16:30</dd>
-      </div>
-            <div class="flex flex-col sm:flex-row sm:items-start gap-2 border-b border-white/40 pb-6 mb-6">
-        <dt class="font-bold shrink-0 w-36">会場</dt>
-        <dd>銀座ユニーク貸会議室7丁目店</dd>
-      </div>
-            <div class="flex flex-col sm:flex-row sm:items-start gap-2 border-b border-white/40 pb-6 mb-6">
-        <dt class="font-bold shrink-0 w-36">参加人数</dt>
-        <dd>抽選150名限定</dd>
-      </div>
-            <div class="flex flex-col sm:flex-row sm:items-start gap-2 border-b border-white/40 pb-6 mb-6">
-        <dt class="font-bold shrink-0 w-36">参加費</dt>
-        <dd>無料</dd>
-      </div>
-            <div class="flex flex-col sm:flex-row sm:items-start gap-2 border-b border-white/40 pb-6 mb-6">
-        <dt class="font-bold shrink-0 w-36">アクセス</dt>
-        <dd>JR山手線 新橋駅 徒歩7分<br>東京メトロ銀座線 新橋駅 徒歩7分<br>JR京浜東北線 新橋駅 徒歩7分<br>都営浅草線 新橋駅 徒歩7分<br>東京メトロ銀座線 銀座駅 徒歩5分<br>東京メトロ丸ノ内線 銀座駅 徒歩5分<br>東京メトロ日比谷線 銀座駅 徒歩5分<br>東京メトロ日比谷線 東銀座駅 徒歩5分<br>都営浅草線 東銀座駅 徒歩5分</dd>
-      </div>
-            <div class="flex flex-col sm:flex-row sm:items-start gap-2">
-        <dt class="font-bold shrink-0 w-36">主催</dt>
-        <dd>株式会社ベイコスメティックス</dd>
-      </div>
-    </dl>
-  </div>
+  <div class="max-w-screen-lg mx-auto text-center">
+    <h2 class="text-5xl font-extrabold italic mb-3">EVENT SUMMARY</h2>
+    <p class="text-lg mb-12">ーイベント開催概要ー</p>
+    <dl class="mx-auto max-w-[600px] text-left text-lg leading-relaxed">
+      <div class="flex flex-col sm:flex-row border-b border-white/40 pb-6 mb-6">
+        <dt class="font-bold w-36">開催日程</dt>
+        <dd>2025年10月28日(火) 17:00–20:00（交流会19:30〜20:00）<br>受付開始 16:30</dd>
+      </div>
+      <div class="flex flex-col sm:flex-row border-b border-white/40 pb-6 mb-6">
+        <dt class="font-bold w-36">会場</dt>
+        <dd>銀座ユニーク貸会議室7丁目店</dd>
+      </div>
+      <div class="flex flex-col sm:flex-row border-b border-white/40 pb-6 mb-6">
+        <dt class="font-bold w-36">参加人数</dt>
+        <dd>抽選150名限定</dd>
+      </div>
+      <div class="flex flex-col sm:flex-row border-b border-white/40 pb-6 mb-6">
+        <dt class="font-bold w-36">参加費</dt>
+        <dd>無料（事前申込でスムーズ入場）</dd>
+      </div>
+      <div class="flex flex-col sm:flex-row border-b border-white/40 pb-6 mb-6">
+        <dt class="font-bold w-36">アクセス</dt>
+        <dd>
+          JR/東京メトロ/都営浅草線 新橋駅 徒歩7分<br>
+          東京メトロ 銀座駅 徒歩5分<br>
+          東京メトロ 日比谷線 東銀座駅 徒歩5分
+        </dd>
+      </div>
+      <div class="flex flex-col sm:flex-row">
+        <dt class="font-bold w-36">主催</dt>
+        <dd>株式会社ベイコスメティックス</dd>
+      </div>
+    </dl>
+  </div>
 </section>
-  
-<section class="bg-[var(--blue-main)] py-10 text-center text-white">
-  <a href="https://forms.gle/nbGFV11vnPAZWBvK6" target="_blank" class="inline-block bg-[var(--yellow)] text-black px-12 py-4 rounded-full font-semibold hover:bg-[var(--blue-accent)] transition">来場申し込みはこちら</a>
-</section>
-  
+
+<!-- 5) SEMINAR PROGRAM -->
 <section id="seminar" class="bg-white py-24 px-6">
-  <div class="max-w-screen-lg mx-auto text-center">
-    <h2 class="text-4xl font-extrabold italic mb-2">SEMINAR PROGRAM</h2>
-    <p class="text-sm text-gray-600 mb-12">ーセミナー プログラムー</p>
-        <div class="text-left space-y-4 mb-12">
-      <h3 class="font-bold text-[var(--blue-main)]">Session1&nbsp;17:10~17:40</h3>
-      <p class="text-xl font-bold">日本最大のコスメ・美容の総合サイト「@cosme」のデータから見る 化粧品市場の現状と今後の成長性</p>
-      <div class="bg-gray-50 p-6 rounded-lg shadow">
-        <div class="flex items-center gap-4 mb-4">
-          <img src="原田彩子.png" alt="原田 彩子" class="w-24 h-24 rounded-full object-cover">
-          <div>
-            <p class="text-lg md:text-xl font-bold text-[var(--blue-main)] mb-1">原田 彩子</p>
-            <p class="text-sm md:text-base text-gray-500 leading-tight">アイスタイルデータコンサルティング株式会社<br>@cosmeリサーチプランナー</p>
-          </div>
-        </div>
-        <p class="text-sm md:text-base text-gray-500 leading-tight">
-          <strong>▼プロフィール</strong><br>
-          ＠cosmeを運営するアイスタイルにて、美容市場における生活者の深い理解を目指し、 ＠cosme会員組織を活用したマーケティングリサーチの実施、および＠cosmeに蓄積されたクチコミをもとにユーザー特性や商品特性の調査分析を行う。 読売新聞、日経MJ、日経TRENDY、光文社「bis」等、新聞・雑誌媒体への協力・出演や、宣伝会議等のセミナー講演、化粧品メーカーのPRイベント登壇、ラジオ出演等、多岐にわたって生活者の消費傾向・トレンド情報の発信に携わる。
-        </p>
-        <p class="text-sm md:text-base text-gray-500 leading-tight mt-4">
-          <strong>▼内容</strong><br>
-          なぜ今、化粧品市場が熱いのか。業界の最前線を走るアイスタイル様が、膨大なデータを基に市場のリアルな今と、未来の可能性について解説。新規参入を検討する上で欠かせない、マクロな視点と成功のヒントを得ることができます。
-        </p>
-      </div>
-    </div>
-  
-        <div class="text-left space-y-4 mb-12">
-      <h3 class="font-bold text-[var(--blue-main)]">Session2&nbsp;17:50~18:30</h3>
-      <p class="text-xl font-bold">異業種参入でも成功を掴む！ヒットブランドの作り方と最新マーケティング戦略</p>
-      <div class="bg-gray-50 p-6 rounded-lg shadow">
-        <div class="flex items-center gap-4 mb-4">
-          <img src="石井賢介.png" alt="石井 賢介" class="w-24 h-24 rounded-full object-cover">
-          <div>
-            <p class="text-lg md:text-xl font-bold text-[var(--blue-main)] mb-1">石井 賢介</p>
-            <p class="text-sm md:text-base text-gray-500 leading-tight">株式会社MD 代表取締役</p>
-          </div>
-        </div>
-        <p class="text-sm md:text-base text-gray-500 leading-tight">
-          <strong>▼プロフィール</strong><br>
-          1990年生まれ。東京大学農学部卒業。 住友商事、P&Gを経て、マーケティング支援の株式会社MDを創業。200社以上の企業を支援。自社でも食品や化粧品のブランドを展開。ベイコスメティックス社設立後、マーケティングを軸とした商品・処方開発からチャネル支援までディレクションを実施。
-        </p>
-        <p class="text-sm md:text-base text-gray-500 leading-tight mt-4">
-          <strong>▼内容</strong><br>
-          数々の化粧品ブランドを成功に導いてきたベイコスメティックスが、新規参入企業が陥りがちな失敗と、それを乗り越えヒットを生み出すための具体的なブランド戦略、販売促進手法を徹底解説します。
-        </p>
-      </div>
-    </div>
-  
-        <div class="text-left space-y-4 mb-12">
-      <h3 class="font-bold text-[var(--blue-main)]">Session3&nbsp;18:40~19:10</h3>
-      <p class="text-xl font-bold">なぜ新規事業で化粧品事業を選んだのか？各社の成功事例から学ぶ参入のリアル</p>
-      <div class="bg-gray-50 p-6 rounded-lg shadow">
-        <div class="text-center text-lg font-bold text-[var(--blue-main)] mb-4">
-          ネオマーケティング様&nbsp;×&nbsp;アイスタイル様&nbsp;×&nbsp;ベイコスメティックス
-        </div>
-        <p class="text-sm md:text-base text-gray-500 leading-tight mt-4">
-          <strong>▼内容</strong><br>
-          実際に異業種から化粧品事業に参入し、成功を収めている各社によるパネルディスカッション。どのような課題があり、どう乗り越えたのか。リアルな成功事例を共有し、明日から実践できる事業戦略のヒントを語り尽くします。
-        </p>
-      </div>
-    </div>
-  </div>
+  <div class="max-w-screen-lg mx-auto text-center">
+    <h2 class="text-4xl font-extrabold italic mb-2">SEMINAR PROGRAM</h2>
+    <p class="text-sm text-gray-600 mb-12">ーセミナープログラムー</p>
+
+    <!-- Session 1 -->
+    <div class="text-left space-y-4 mb-12">
+      <h3 class="font-bold text-[var(--blue-main)]">Session1 17:10~17:40</h3>
+      <p class="text-xl font-bold">日本最大のコスメ・美容の総合サイト「@cosme」のデータから見る 化粧品市場の現状と今後の成長性</p>
+      <p class="text-sm text-gray-500">講師：アイスタイルデータコンサルティング株式会社 @cosmeリサーチプランナー 原田 彩子</p>
+      <p class="text-base text-gray-600">なぜ今、化粧品市場が熱いのか。業界の最前線を走るアイスタイル様が、膨大なデータを基に市場のリアルと未来の可能性を解説。新規参入を検討する上で欠かせない成功のヒントが得られます。</p>
+    </div>
+
+    <!-- Session 2 -->
+    <div class="text-left space-y-4 mb-12">
+      <h3 class="font-bold text-[var(--blue-main)]">Session2 17:50~18:30</h3>
+      <p class="text-xl font-bold">異業種参入でも成功を掴む！ヒットブランドの作り方と最新マーケティング戦略</p>
+      <p class="text-sm text-gray-500">講師：株式会社MD 代表取締役 石井 賢介</p>
+      <p class="text-base text-gray-600">数々の化粧品ブランドを成功に導いたノウハウをもとに、新規参入企業が陥りがちな失敗と、それを乗り越えヒットを生み出すための具体的なブランド戦略・販売促進手法を徹底解説します。</p>
+    </div>
+
+    <!-- Session 3 -->
+    <div class="text-left space-y-4">
+      <h3 class="font-bold text-[var(--blue-main)]">Session3 18:40~19:10</h3>
+      <p class="text-xl font-bold">なぜ新規事業で化粧品事業を選んだのか？各社の成功事例から学ぶ参入のリアル</p>
+      <p class="text-sm text-gray-500">登壇：ネオマーケティング × アイスタイル × ベイコスメティックス</p>
+      <p class="text-base text-gray-600">異業種から化粧品事業に参入し、成功を収めた各社によるパネルディスカッション。課題と乗り越え方を共有し、明日から実践できる事業戦略のヒントを語り尽くします。</p>
+    </div>
+  </div>
 </section>
-  
-<section id="timetable" class="bg-[var(--blue-main)] text-white py-20 px-6">
-  <div class="max-w-screen-lg mx-auto text-center">
-    <h2 class="text-5xl font-extrabold italic text-white mb-3">
-      TIME TABLE
-    </h2>
-    <p class="text-lg mb-12">ータイムテーブルー</p>
-    <div class="mx-auto max-w-[600px] text-left text-lg leading-relaxed">
-      <div class="flex items-start gap-4 mb-4">
-        <p class="font-bold text-base md:text-xl shrink-0 w-36">17:00 ～ 17:10</p>
-        <p class="text-base md:text-xl">開会挨拶 （株式会社ベイコスメティックス 代表）</p>
-      </div>
-      <div class="flex items-start gap-4 mb-4">
-        <p class="font-bold text-base md:text-xl shrink-0 w-36">17:10 ～ 17:40</p>
-        <p class="text-base md:text-xl">Session 1：株式会社アイスタイル様 「化粧品市場の現状と今後の成長性」</p>
-      </div>
-      <div class="flex items-start gap-4 mb-4">
-        <p class="font-bold text-base md:text-xl shrink-0 w-36">17:40 ～ 17:50</p>
-        <p class="text-base md:text-xl">休憩</p>
-      </div>
-      <div class="flex items-start gap-4 mb-4">
-        <p class="font-bold text-base md:text-xl shrink-0 w-36">17:50 ～ 18:30</p>
-        <p class="text-base md:text-xl">Session 2：株式会社MD 「新規参入をうまくいかせるためのブランド作りとマーケティング戦略」</p>
-      </div>
-      <div class="flex items-start gap-4 mb-4">
-        <p class="font-bold text-base md:text-xl shrink-0 w-36">18:40 ～ 19:10</p>
-        <p class="text-base md:text-xl">Session 3：パネルディスカッション 「なぜ新規事業で化粧品事業を選んだのか 各社の成功事例の共有」</p>
-      </div>
-      <div class="flex items-start gap-4">
-        <p class="font-bold text-base md:text-xl shrink-0 w-36">19:10 ～ 20:00</p>
-        <p class="text-base md:text-xl">交流会 登壇者や参加者と直接ネットワーキングできる貴重な機会です。</p>
-      </div>
-    </div>
-  </div>
+
+<!-- 6) TIMETABLE -->
+<section id="schedule" class="bg-[var(--blue-main)] text-white py-20 px-6">
+  <div class="max-w-screen-lg mx-auto text-center">
+    <h2 class="text-4xl font-extrabold italic mb-2">TIME TABLE</h2>
+    <p class="text-sm text-white/80 mb-12">ータイムテーブルー</p>
+    <ul class="space-y-4 text-lg">
+      <li>17:00〜17:10　開会挨拶（株式会社ベイコスメティックス 代表）</li>
+      <li>17:10〜17:40　Session1：株式会社アイスタイル「化粧品市場の現状と今後の成長性」</li>
+      <li>17:40〜17:50　休憩</li>
+      <li>17:50〜18:30　Session2：株式会社MD「ブランド作りとマーケティング戦略」</li>
+      <li>18:40〜19:10　Session3：パネルディスカッション「新規参入のリアル」</li>
+      <li>19:10〜20:00　交流会（登壇者・参加者と直接ネットワーキング）</li>
+    </ul>
+  </div>
 </section>
-  
+
+<!-- 7) ACCESS -->
 <section id="access" class="bg-white py-20 px-6">
-  <div class="max-w-screen-lg mx-auto text-center">
-    <h2 class="text-5xl font-extrabold italic text-[var(--blue-main)] mb-4">ACCESS</h2>
-    <p class="text-lg mb-12">ーアクセスー</p>
-    <div class="text-center text-lg leading-relaxed">
-      <p>東京都中央区銀座7-13-15</p>
-    </div>
-  </div>
+  <div class="max-w-screen-lg mx-auto text-center">
+    <h2 class="text-4xl font-extrabold italic mb-2">ACCESS</h2>
+    <p class="text-sm text-gray-600 mb-12">ー会場アクセスー</p>
+    <p class="text-lg font-bold mb-4">東京都中央区銀座7-13-15 銀座ユニーク貸会議室7丁目店</p>
+    <p class="text-base text-gray-600">新橋駅 徒歩7分 / 銀座駅 徒歩5分 / 東銀座駅 徒歩5分</p>
+  </div>
 </section>
-  
+
+<!-- 8) CTA -->
 <section class="bg-[var(--blue-main)] py-10 text-center text-white">
-  <div class="max-w-screen-lg mx-auto px-6">
-    <p class="mb-4">ご多忙の折とは存じますが、万障お繰り合わせの上、ご参加いただけますようお願い申し上げます。<br>下記フォームよりお申し込みください。</p>
-    <a href="https://forms.gle/nbGFV11vnPAZWBvK6" target="_blank" class="inline-block bg-[var(--yellow)] text-black px-12 py-4 rounded-full font-semibold hover:bg-[var(--blue-accent)] transition">来場申し込みはこちら</a>
-  </div>
+  <p class="mb-6 text-lg">ご多忙の折とは存じますが、ぜひご参加ください。<br>下記フォームよりお申し込みください。</p>
+  <a href="https://forms.gle/nbGFV11vnPAZWBvK6" target="_blank" class="inline-block bg-[var(--yellow)] text-black px-12 py-4 rounded-full font-semibold hover:bg-[var(--blue-accent)] transition">来場申し込みはこちら</a>
 </section>
-  
-<footer class="text-center text-xs py-8">
-  <p>&copy; 2025 NEXT COSMETIC EXPO. All Rights Reserved.</p>
-</footer>
-  
+
 </body>
 </html>
